@@ -1,0 +1,28 @@
+{
+    "projects": [
+        { "id": 1, 
+        "title": "SpaceX Dashboard", 
+        "description": "Built using the Python library Dash, this visualization pulls data from a SpaceX API, as well as the Wikipedia API in order to showcase SpaceX launches, customer and geographical information, and individual missions through 2020 (extent of the API).",
+        "github_link": "https://github.com/AnalysisByJordan/spacex_dashboard/tree/master",
+        "img": "dash_pic_2.png"
+        },
+        { "id": 2, 
+        "title": "Budget Dashboard", 
+        "description": "A budget visualizing expenses, income, and savings broken down into categories and sub-categories. Also has a metrics section highlighting important budget statistics. Built using Plotly, Dash, and Numpy randomly generated data.", 
+        "github_link": "https://github.com/AnalysisByJordan/budget_dashboard",
+        "img": "budget.png"
+        },
+        { "id": 3, 
+        "title": "Class Case Study", 
+        "description": "An analysis into multivariate student data, using correlation (heatmatp), a Parallel Coordinates visualization, and 'outlierness' using the Euclidean Norm formula.", 
+        "github_link": "https://github.com/AnalysisByJordan/class_data_analysis/blob/master/class_data.ipynb",
+        "img": "article1_pic.png"
+        },
+        { "id": 4, 
+        "title": "Nutrition Compare App", 
+        "description": "A budget visualizing expenses, income, and savings broken down into categories and sub-categories. Also has a metrics section highlighting important budget statistics. Built using Plotly, Dash, and Numpy randomly generated data.", 
+        "github_link": "https://github.com/AnalysisByJordan/food_compare_app",
+        "img": "white_cover.jpg"
+        }
+    ]
+}
