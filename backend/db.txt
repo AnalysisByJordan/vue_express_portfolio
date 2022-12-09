@@ -26,5 +26,3 @@
         }
     ]
 }
-
-MongoDB=mongodb+srv://jrobey:blaster2456@cluster0.wzicgj9.mongodb.net/?retryWrites=true&w=majority
