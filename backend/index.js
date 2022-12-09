@@ -1,13 +1,13 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 require('dotenv').config()
-//const cors = require("cors");
+const cors = require("cors");
 
 const app = express();
 
 // Middleware
 app.use(bodyParser.json());
-//app.use(cors());
+app.use(cors());
 
 const posts = require("./routes/api/posts");
 const projects = require("./routes/api/projects");

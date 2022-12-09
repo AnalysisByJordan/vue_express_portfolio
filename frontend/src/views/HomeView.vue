@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <v-container fluid>
-      <v-row></v-row>
-    </v-container>
-  </div>
+  <v-container fluid>
+    <v-row> </v-row>
+  </v-container>
 </template>
 
 <script>
