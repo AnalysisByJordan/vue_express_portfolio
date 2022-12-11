@@ -3,10 +3,8 @@
     <nav-bar app></nav-bar>
     <v-main>
       <!-- Provides the application the proper gutter -->
-      <v-container fluid>
-        <!-- If using vue-router -->
-        <router-view></router-view>
-      </v-container>
+      <!-- If using vue-router -->
+      <router-view></router-view>
     </v-main>
     <footer-bar app></footer-bar>
   </v-app>

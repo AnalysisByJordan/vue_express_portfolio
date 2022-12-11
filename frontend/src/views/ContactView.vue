@@ -5,7 +5,7 @@
         Thanks for the message!
       </v-alert>
       <v-row justify="center">
-        <v-col cols="12" md="4">
+        <v-col cols="4">
           <v-text-field
             v-model="fullname"
             :rules="nameRules"
