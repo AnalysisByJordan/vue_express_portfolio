@@ -1,11 +1,10 @@
 <template>
   <v-container fill-height fluid>
     <v-row justify="center">
-      <v-col cols="5" class="d-flex flex-column justify-center align-center">
-        <animated-shape class="shape"></animated-shape>
-        <div v-html="html"></div>
+      <v-col cols="4" class="d-flex flex-column justify-center align-center">
+        <animated-shape></animated-shape>
         <h1>Jordan Robey</h1>
-        <div>
+        <div class="links">
           <a
             class="git-linked-symbols"
             href="https://github.com/AnalysisByJordan"
@@ -20,23 +19,64 @@
           ></a>
         </div>
       </v-col>
-      <v-col cols="5">
+      <v-col cols="4">
         <h1>About me:</h1>
-        <p class="bio">
-          Data professional with experience analyzing audience data in order to
-          drive efficient advertisement spending - including developing data
-          ingestion software and dashboards. I like fooling around with new
-          technologies and building websites and applications which can be found
-          in my 'Projects' section. In my spare time, I enjoy falling onto mats
-          while bouldering and exploring local waterways in my kayak (which
-          definitely doesn't have it's own name).
+        <p>
+          Software Engineer currently working on a SaaS platform built on
+          <span
+            ><a
+              style="text-decoration: none"
+              href="https://vuejs.org/"
+              target="_blank"
+              >Vue.js</a
+            ></span
+          >, which helps clients improve advertisement spend by visualizing
+          robust audience data. I also work with Python and AWS in the creation
+          of internal API's and pipeline infrustructure. <br /><br />
+          I also like fooling around with new technologies and building
+          applications that interest me (see
+          <span
+            ><router-link style="text-decoration: none" to="/projects"
+              >Projects</router-link
+            ></span
+          >
+          section). <br /><br />
+          In my spare time, I enjoy falling onto mats while attempting to
+          boulder and exploring local waterways in my kayak (which definitely
+          doesn't have it's own name). <br /><br />
+          <span style="color: grey"
+            >“Everything should be made as simple as possible, but no simpler” -
+            Albert Einstein</span
+          >
         </p>
-        <div>
+        <div class="logos">
           <v-img
-            :src="require('../assets/logo.png')"
-            class="my-3"
+            :src="require('../assets/js_logo.png')"
+            class="logo"
             contain
-            height="200"
+            max-height="40"
+            max-width="40"
+          />
+          <v-img
+            :src="require('../assets/vue_logo.png')"
+            class="logo"
+            contain
+            max-height="40"
+            max-width="40"
+          />
+          <v-img
+            :src="require('../assets/python_logo.png')"
+            class="logo"
+            contain
+            max-height="40"
+            max-width="40"
+          />
+          <v-img
+            :src="require('../assets/git_logo.png')"
+            class="logo"
+            contain
+            max-height="90"
+            max-width="90"
           />
         </div>
       </v-col>
@@ -54,6 +94,21 @@ export default {
   
 
 <style scoped>
+h1 {
+  font-size: 50px;
+}
+p {
+  font-size: 20px;
+}
+.links {
+  margin-top: 15px;
+}
+.logos {
+  display: flex;
+}
+.logo {
+  margin-right: 40px;
+}
 .bio {
   width: 600px;
 }
