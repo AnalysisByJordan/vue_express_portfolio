@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="shape">
-      <div ref="threeContainer"></div>
+      <div ref="canvas"></div>
     </div>
   </div>
 </template>
@@ -47,7 +47,7 @@ export default {
         alpha: true,
       });
       this.renderer.setSize(window.innerWidth / 7, window.innerHeight / 7);
-      this.$refs.threeContainer.appendChild(this.renderer.domElement);
+      this.$refs.canvas.appendChild(this.renderer.domElement);
     },
     // onWindowResize() {
     //   this.camera.aspect = window.innerWidth / window.innerHeight;
