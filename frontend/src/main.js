@@ -4,10 +4,8 @@ import vuetify from './plugins/vuetify'
 import router from './router'
 
 Vue.config.productionTip = false
-const compiler = require('vue-template-compiler')
 
 new Vue({
-  compiler,
   vuetify,
   router,
   render: h => h(App)

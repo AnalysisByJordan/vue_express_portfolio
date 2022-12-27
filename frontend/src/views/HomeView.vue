@@ -33,8 +33,8 @@
           >, which helps clients improve advertisement spend by visualizing
           robust audience data. I also work with Python and AWS in the creation
           of internal API's and pipeline infrustructure. <br /><br />
-          I also like fooling around with new technologies and building
-          applications that interest me (see
+          I like fooling around with new technologies and building applications
+          that interest me (see
           <span
             ><router-link style="text-decoration: none" to="/projects"
               >Projects</router-link
