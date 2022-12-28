@@ -5,5 +5,8 @@
         "build-frontend": "cd frontend && npm run build",
         "start-backend": "cd backend && npm start",
         "build-and-start": "npm run build-frontend && npm run start-backend"
+    },
+    "dependencies": {
+        "@vue/cli": "^5.0.8"
     }
 }
