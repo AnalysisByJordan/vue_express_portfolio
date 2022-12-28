@@ -1,0 +1,9 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "scripts": {
+        "build-frontend": "cd frontend && npm run build",
+        "start-backend": "cd backend && npm start",
+        "build-and-start": "npm run build-frontend && npm run start-backend"
+    }
+}
